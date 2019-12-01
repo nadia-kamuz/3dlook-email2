@@ -1,0 +1,83 @@
+ .article1 {
+    background-color: #E1E3EE;
+    .articles {
+        .single-article {
+            >td>table {
+                margin-bottom: 20px;
+            }
+
+            table {
+                tr {
+                    
+
+                    img {
+                        display: block;
+                        width: 100%;
+                        margin-top: 32px;
+                    }
+
+                    .img2 {
+                        margin-top: 1px;
+                        margin-bottom: 20px;
+                    }
+
+
+                    td {
+                        &.pl-20 {
+                            padding-top: 32px;
+                            padding-bottom: 32px;
+                            padding-left: 58px;
+                        }
+
+                        .tag {
+                            margin-bottom: 10px;
+                            display: inline-block;
+                            font-family: Roboto, Arial, sans-serif;
+                            font-size: 12px;
+                            font-style: italic;
+                            font-weight: 400;
+                            color: #282828;
+                        }
+
+                        h3 {
+                            line-height: 20px;
+                            font-family: Roboto, Arial, sans-serif;
+                            font-size: 18px;
+                            font-weight: bold;
+                            margin: 0 0 3px 0 !important;
+                            padding: 0;
+                        }
+
+                        p {
+                            font-family: Roboto, Arial, sans-serif;
+                            font-size: 14px;
+                            color: #282828;
+                            margin: 0 !important;
+                            padding: 0 !important;
+
+                            .bold {
+                                font-weight: bold;
+                            }
+
+                            a {
+                                color: #EEB200;
+                                font-weight: bold;
+                            }
+
+                            .quot {
+                                font-size: 50px;
+                            }
+                        }
+
+                        table {
+                            tr {
+                                border: 0;
+                                height: auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+ }

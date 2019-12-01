@@ -1,0 +1,53 @@
+.content {
+    .main-content {
+        h2 {
+            font-size: 22px;
+            line-height: 25px;
+
+            img {
+                vertical-align: bottom;
+            }
+        }
+
+        p {
+            img {
+                display: inline-block;
+                vertical-align: bottom;
+            }
+        }
+
+        
+
+        .report {
+            text-decoration: underline;
+            font-weight: bold;
+            color: #0090D6;
+        }
+        
+        .showme {
+            p {
+                margin-top: 50px;
+                text-align: center;
+                margin-bottom: 19px;
+            }
+
+        }
+        
+
+        .card-btn-container {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+
+            .btn {
+                color: #fff;
+            }
+        }
+
+        .magazine-image {
+            width: 100%;
+        }
+    }
+
+    
+}

@@ -1,0 +1,31 @@
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.btn {
+    z-index: 10;
+    display: block;
+    height: 45px;
+    width: 220px;
+    letter-spacing: 2px;
+    background: #FD574C;
+    color: #fff;
+    font-size: 14px;
+    line-height: 45px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    overflow: hidden;
+    transition: box-shadow 0.2s;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 19px;
+    margin-bottom: 50px;
+}
+
+.btn:hover {
+    box-shadow: 0 4px 20px 0 rgba(169, 62, 65, 0.4) !important;
+}
