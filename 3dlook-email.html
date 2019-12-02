@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3DLOOK</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400|Roboto:300i,400,400i,700&display=swap" rel="stylesheet">
+    <style>
+      .btn:hover{box-shadow:0 4px 20px 0 rgba(169, 62, 65, 0.4) !important}
+      .contact .social-icons td a:hover{background-color:#0090D6 !important}
+    </style>
+    <style type="text/css">
+      @import url("https://fonts.googleapis.com/css?family=Oswald:300,700|Roboto:300i,400,400i,700&display=swap");
+      @media screen and (max-width: 600px) {
+  .top-block {
+    padding-right: 20px !important;
+  }
+
+  .hidden-mobile {
+    display: none !important;
+  }
+
+  .contact > td,
+.hello > td,
+.showme > td,
+.footer > td {
+    padding: 0 20px !important;
+  }
+
+  .social-icons td {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+  }
+  .social-icons td a {
+    text-align: center;
+    line-height: 45px;
+  }
+  .social-icons td a img {
+    display: inline-block;
+    max-width: 22px;
+  }
+
+  table {
+    width: 100% !important;
+  }
+  table.hidden-desktop {
+    display: table !important;
+  }
+  table.hidden-mobile {
+    display: none;
+  }
+  table tr.hidden-desktop {
+    display: table-row !important;
+  }
+  table tr.hidden-mobile {
+    display: none;
+  }
+  table tr td.hidden-desktop {
+    display: table-cell !important;
+  }
+  table tr td.hidden-mobile {
+    display: none;
+  }
+
+  .header .header-table {
+    height: 75px;
+  }
+  .header .header-table .header-logo-container {
+    padding-left: 20px !important;
+  }
+  .header .header-table .header-navigation-container {
+    padding-right: 0;
+  }
+  .header .header-table .hidden-desktop .products-navigation {
+    margin: 0 !important;
+    margin-bottom: 10px !important;
+    padding: 0 20px !important;
+  }
+  .header .header-table .hidden-desktop .products-navigation td:after {
+    display: none;
+  }
+  .header .header-table .hidden-desktop .products-navigation td a {
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #fff !important;
+    opacity: 1;
+    white-space: nowrap;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+
+  .articles > td {
+    padding: 20px !important;
+  }
+  .articles .pl-20 {
+    padding: 20px !important;
+  }
+  .articles img {
+    min-width: 100%;
+  }
+
+  .social .hidden-desktop {
+    text-align: center;
+  }
+
+  .contact .hidden-desktop .title h2 {
+    margin-top: 30px;
+  }
+  .contact .hidden-desktop .avatar {
+    display: inline-block;
+    width: 95px;
+  }
+  .contact .hidden-desktop .avatar img {
+    width: 100%;
+    max-width: 95px;
+    margin-top: 19px;
+  }
+  .contact .hidden-desktop .contact-info {
+    display: inline-block;
+    width: calc(100% - 100px);
+    box-sizing: border-box;
+    padding-left: 15px !important;
+    padding-top: -4px !important;
+  }
+  .contact .hidden-desktop .contact-info .name {
+    margin: 0;
+    margin-bottom: 5px !important;
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+    font-weight: 700;
+  }
+  .contact .hidden-desktop .contact-info .position {
+    margin: 0 !important;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000;
+  }
+  .contact .social-icons td {
+    margin: 30px 15px 20px 0 !important;
+    width: 40px !important;
+    height: 40px !important;
+  }
+  .contact .social-icons td a {
+    line-height: 56px !important;
+  }
+  .contact .social-icons td a img {
+    max-width: 32px !important;
+    width: 32px !important;
+  }
+  .contact .social-icons td .instagram {
+    line-height: 62px !important;
+  }
+  .contact .social-icons td .facebook {
+    line-height: 62px !important;
+  }
+  .contact .social-icons td .facebook img {
+    width: 15px !important;
+  }
+  .contact .address {
+    font-size: 12px;
+    line-height: 20px;
+    margin-right: 10px;
+    color: #9ca4b1;
+  }
+  .contact .address.second {
+    font-size: 12px;
+    line-height: 20px;
+    color: #9ca4b1;
+  }
+}
+@media screen and (max-width: 500px) {
+  table {
+    width: 100%;
+  }
+
+  .header .header-table .header-navigation-container .header-navigation li {
+    display: none !important;
+  }
+}
+    </style>
+  </head>
+  <body style='margin:0;padding:0;background-color:#F5F6F8;font-family:"Roboto", Arial, sans-serif;'>
+    <div class="pre-text" style="visibility:hidden;mso-hide:all;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;display:none !important;">Hi [FIRST NAME],
+    Have you seen the latest report from Coresight Research? It gives an introduction of 3D body scanning for the retail market, key benefits for your business, and use cases.&zwnj;&nbsp;&zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp;&zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp;&zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp;&zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp;&zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp;&zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp;&zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp; &zwnj;&nbsp;</div>
+    <table border="0" cellpadding="0" cellspacing="0" width="600" align="center" class="top" style="margin:0 auto;border-collapse:collapse;border-spacing:0;">
+      <tr>
+        <td class="top-block" style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;position: relative; padding-top: 25px; text-align: right;'>
+          <a href="{{WebLetterUrl}}" style='color:#282828;font-family:"Roboto", Arial, sans-serif;text-decoration:none;text-decoration: underline; font-size: 12px;'>Web version</a>
+        </td>
+      </tr>
+    </table>
+    <table class="container" style="margin:0 auto;border-collapse:collapse;border-spacing:0;width:600px;margin-top:5px;background-color:#ffffff;">
+      <tr class="header">
+        <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;'>
+          <table border="0" cellpadding="0" cellspacing="0" width="600" align="center" class="header-table" style="margin:0 auto;border-collapse:collapse;border-spacing:0;width:600px;table-layout:fixed;background-color:#ffffff;border-bottom:2px solid #E1E3EE;height:75px;">
+            <tr>
+              <td valign="top" class="header-logo-container" style='font-family:"Roboto", Arial, sans-serif; font-weight:300;font-style:italic;font-size:26px;line-height:30px;position:relative;z-index:3;padding:0;margin:0;padding-left:60px;width:60%;white-space:nowrap;'>
+                <a href="https://3dlook.me/?utm_source=newsletter&utm_medium=email&utm_campaign=email_newsletter&utm_content=smb_november_2019" target="_blank" style='color:#000000;font-family:"Roboto", Arial, sans-serif;text-decoration:none;display:inline-block;font-family:"Roboto", sans-serif;font-weight:300;font-style:italic;font-size:26px;line-height:30px;font-weight:lighter;'>
+                  <img class="header-logo" src="https://nadia-kamuz.github.io/3dlook-email2/img/logo_3dlook_horizontal_white.png" alt="header-logo" style="position:relative;width:119px;height:18px;margin:28px 0 0 0;">
+                  Insights
+                            </a>
+              </td>
+              <td class="header-navigation-container" style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;text-align:right;white-space:nowrap;'>
+                <ul class="header-navigation" style="list-style:none;margin:0;padding:0;margin:0 60px 0 0;">
+                  <li style="margin-right:38px;display:inline-block;font-size:12px;line-height:14px;color:#000;margin-right:0;">November, 2019</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr class="content">
+        <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;'>
+          <table width="480" align="center" class="main-content" style="margin:0 auto;border-collapse:collapse;border-spacing:0;">
+            <tr class="hello">
+              <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;'>
+                <h2 style="color:#282828;font-weight:700;letter-spacing:0.5px;margin:0;margin-top:43px;margin-bottom:10px;font-size:22px;line-height:25px;">Hi [FIRST NAME],</h2>
+                <p style='color:#282828;font-size:14px;line-height:23px;margin-top:0;margin-bottom:39px;font-family:"Roboto", Arial, sans-serif;'>Have you seen the latest report from Coresight Research? It gives an introduction of 3D body scanning for the retail market, key benefits for your business, and use cases. <a href="https://3dlook.me/blog/digital-fit-customization-coresight-research-features-3dlook-in-innovator-intelligence-report/?utm_source=newsletter&utm_medium=email&utm_campaign=email_newsletter&utm_content=november2nd_2019" target="blank" class="report" style='color:#282828;font-family:"Roboto", Arial, sans-serif;text-decoration:none;text-decoration:underline;font-weight:bold;color:#0090D6;'>Download the report for free</a> to learn more about this innovation.</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;'>
+          <table table width="600" align="center" class="article1" style="margin:0 auto;border-collapse:collapse;border-spacing:0;background-color:#E1E3EE;">
+            <tr class="articles">
+              <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;'>
+                <table style="margin:0 auto;border-collapse:collapse;border-spacing:0;">
+                  <tr class="single-article">
+                    <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;'>
+                      <table width="480" height="250" align="center" border="0" cellpadding="0" cellspacing="0" style="margin:0 auto;border-collapse:collapse;border-spacing:0;margin-bottom:20px;">
+                        <tr>
+                          <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;'>
+                            <table align="left" width="95" style="margin:0 auto;border-collapse:collapse;border-spacing:0;">
+                              <tr style="border:0;height:auto;">
+                                <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;'>
+                                  <img src="https://nadia-kamuz.github.io/3dlook-email2/img/3-thinks-to-know-small.png" alt="Deborah Weinswig" border="0" style="display:block;width:100%;margin-top:32px;">
+                                  <img class="img2" src="https://nadia-kamuz.github.io/3dlook-email2/img/Coresight.png" alt="Deborah Weinswig" border="0" style="display:block;width:100%;margin-top:32px;margin-top:1px;margin-bottom:20px;">
+                                </td>
+                              </tr>
+                            </table>
+                            <table valign="center" style="margin:0 auto;border-collapse:collapse;border-spacing:0;">
+                              <tr style="border:0;height:auto;">
+                                <td class="pl-20" style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;padding-left:20px;padding-top:32px;padding-bottom:32px;padding-left:58px;'>
+                                  <h3 style="font-size:14px;margin:0;font-weight:700;margin-top:23px;margin-bottom:14px;line-height:20px;font-family:Roboto, Arial, sans-serif;font-size:18px; color: #000;font-weight:bold;padding:0;margin:0 0 3px 0 !important;">Deborah Weinswig</h3>
+                                  <span class="tag" style="margin-bottom:10px;display:inline-block;font-family:Roboto, Arial, sans-serif;font-size:12px;font-style:italic;font-weight:400;color:#282828;">CEO and Founder of Coresight Research</span>
+                                  <p style='line-height:23px;margin-top:0;margin-bottom:39px;font-family:"Roboto", Arial, sans-serif;font-family:Roboto, Arial, sans-serif;font-size:14px;color:#282828;margin:0 !important;padding:0 !important;'>3D body scanning technology, from companies like 3DLOOK, may hold the solution to the ominous issue of returns and fit. The emerging technology helps customers get the right fit online, delivering a better customer experience and also cutting costs for retailers on reverse logistics. — <span class="bold" style="font-weight:bold;">Deborah Weinswig</span>, CEO and Founder, Coresight Research.</p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr class="content">
+        <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;'>
+          <table width="480" align="center" class="main-content" style="margin:0 auto;border-collapse:collapse;border-spacing:0;">
+            <tr class="showme">
+              <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;'>
+                <p style='color:#282828;font-size:14px;line-height:23px;margin-top:0;margin-bottom:39px;font-family:"Roboto", Arial, sans-serif;margin-top:50px;text-align:center;margin-bottom:19px;'>Curious how to turn these insights into actual results? We know how to turn body data into better customer experiences and save your costs.</p>
+                <a class="btn" href="mailto:andrew.mospan@3dlook.me?subject=Show%20me%20how%20to%20turn%20these%20insights%20into%20%20actual%20%20results&body=Hi%20 Andrew!%0A Please%20 show%20 me %20how %20to %20turn%20 these%20 insights%20 into%20 actual%20 results." style='color:#282828;font-family:"Roboto", Arial, sans-serif;z-index:10;display:block;height:45px;width:220px;letter-spacing:2px;background:#FD574C;color:#fff;font-size:14px;line-height:45px;font-weight:400;font-family:"Roboto", sans-serif;text-align:center;overflow:hidden;transition:box-shadow 0.2s;text-transform:uppercase;text-decoration:none;cursor:pointer;margin:0 auto;margin-top:19px;margin-bottom:50px;'>Show me!</a>
+              </td>
+            </tr>
+            <tr class="hello">
+              <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;'>
+                <p style='color:#282828;font-size:14px;line-height:23px;margin-top:0;margin-bottom:39px;font-family:"Roboto", Arial, sans-serif;'>See how other companies are using the 3DLOOK body data platform. Check out <a href="https://1822denim.com/" target="blank" class="report" style='color:#282828;font-family:"Roboto", Arial, sans-serif;text-decoration:none;text-decoration:underline;font-weight:bold;color:#0090D6;'>1822Denim</a> and <a href="https://www.jovani.com" target="blank" class="report" style='color:#282828;font-family:"Roboto", Arial, sans-serif;text-decoration:none;text-decoration:underline;font-weight:bold;color:#0090D6;'>Jovani Fashion</a> (What is my size! button). Size recommendation is only a part of this solution. The technology provides retailers with the knowledge of what their customers look like to create better fitting clothing and reduce waste.</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;'>
+          <table table width="600" align="center" class="article1" style="margin:0 auto;border-collapse:collapse;border-spacing:0;background-color:#E1E3EE;">
+            <tr class="articles">
+              <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;'>
+                <table style="margin:0 auto;border-collapse:collapse;border-spacing:0;">
+                  <tr class="single-article">
+                    <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;'>
+                      <table width="480" height="250" align="center" border="0" cellpadding="0" cellspacing="0" style="margin:0 auto;border-collapse:collapse;border-spacing:0;margin-bottom:20px;">
+                        <tr>
+                          <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;'>
+                            <table align="left" width="95" style="margin:0 auto;border-collapse:collapse;border-spacing:0;">
+                              <tr style="border:0;height:auto;">
+                                <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;'>
+                                  <img src="https://nadia-kamuz.github.io/3dlook-email2/img/Nazy.png" alt="Digital Marketing Manager at Jovani Fashions" border="0" style="display:block;width:100%;margin-top:32px;">
+                                  <img class="img2" src="https://nadia-kamuz.github.io/3dlook-email2/img/Jovani.png" alt="Digital Marketing Manager at Jovani Fashions" border="0" style="display:block;width:100%;margin-top:32px;margin-top:1px;margin-bottom:20px;">
+                                </td>
+                              </tr>
+                            </table>
+                            <table valign="center" style="margin:0 auto;border-collapse:collapse;border-spacing:0;">
+                              <tr style="border:0;height:auto;">
+                                <td class="pl-20" style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;padding-left:20px;padding-top:32px;padding-bottom:32px;padding-left:58px;'>
+                                  <h3 style="font-size:14px;margin:0;font-weight:700;margin-top:23px;margin-bottom:14px;line-height:20px;font-family:Roboto, Arial, sans-serif;font-size:18px; color: #000; font-weight:bold;padding:0;margin:0 0 3px 0 !important;">Nazy Rafael</h3>
+                                  <span class="tag" style="margin-bottom:10px;display:inline-block;font-family:Roboto, Arial, sans-serif;font-size:12px;font-style:italic;font-weight:400;color:#282828;">Digital Marketing Manager at Jovani Fashions</span>
+                                  <p style='line-height:23px;margin-top:0;margin-bottom:39px;font-family:"Roboto", Arial, sans-serif;font-family:Roboto, Arial, sans-serif;font-size:14px;color:#282828;margin:0 !important;padding:0 !important;'>Jovani manufactures formal dresses and sells them online to 2000+ retailers from all over the world. 3DLOOK helps us to delight our international customers. They can easily measure themselves and select the size that fits them best. — <span class="bold" style="font-weight:bold;">Nazy Rafael</span>, Digital Marketing Manager at Jovani Fashions.</p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr class="content">
+        <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;'>
+          <table width="480" align="center" class="main-content" style="margin:0 auto;border-collapse:collapse;border-spacing:0;">
+            <tr class="hello">
+              <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;'>
+                <h2 style="color:#282828;font-weight:700;letter-spacing:0.5px;margin:0;margin-top:43px;margin-bottom:10px;font-size:22px;line-height:25px;">Want more insights? </h2>
+                <p style='color:#282828;font-size:14px;line-height:23px;margin-top:0;margin-bottom:39px;font-family:"Roboto", Arial, sans-serif;'>Download your <a href="https://3dlook.me/blog/white-paper-personalization-2-0/?utm_source=newsletter&utm_medium=email&utm_campaign=email_newsletter&utm_content=smb_november_2019" target="blank" class="report" style='color:#282828;font-family:"Roboto", Arial, sans-serif;text-decoration:none;text-decoration:underline;font-weight:bold;color:#0090D6;'>free Personalization 2.0 whitepaper</a>. Learn what tools you can integrate today to drive brand loyalty and sales in fashion e-commerce. Check out <a href="https://3dlook.me/blog/personalized-online-shopping-experience-for-your-customers-7-best-practices-for-standing-out/?utm_source=newsletter&utm_medium=email&utm_campaign=email_newsletter&utm_content=smb_november_2019" target="blank" class="report" style='color:#282828;font-family:"Roboto", Arial, sans-serif;text-decoration:none;text-decoration:underline;font-weight:bold;color:#0090D6;'>7 best personalization practices</a> to deliver stand out online shopping experiences.</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr class="contact">
+        <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;'>
+          <table width="480" class="hidden-mobile" style="margin:0 auto;border-collapse:collapse;border-spacing:0;display:table;">
+            <tr>
+              <td class="avatar" style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;display:inline-block;width:60px;margin-top:18px;'>
+                <img src="https://nadia-kamuz.github.io/3dlook-email2/img/Andrey.png" alt="Hi" width="95" height="95">
+              </td>
+              <td class="contact-info" style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;display:inline-block;margin-left:37px;padding-right:54px;width:31%;height:55px;border-right:1px solid #c8ccd3;margin-top:-10px;padding-right:0;'>
+                <span>Best wishes,</span>
+                <span class="name" style="display:inline-block;font-size:16px;line-height:14px;margin-top:5px;">
+                  <nobr>Andrew Mospan</nobr>
+                </span>
+                <p style='color:#282828;font-size:14px;line-height:23px;margin-top:0;margin-bottom:39px;font-family:"Roboto", Arial, sans-serif;'><span class="position" style="font-size:12px;line-height:11px;">Head of Sales at 3DLOOK</span></p>
+              </td>
+              <td class="icons" style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;display:inline-block;width:185px;margin-left:45px;'>
+                <table style="margin:0 auto;border-collapse:collapse;border-spacing:0;width:100%;table-layout:auto;margin-top:14px;">
+                  <tr class="social-icons">
+                    <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;display:inline-block;width:25px;height:25px;margin-right:10px;'>
+                      <a class="3dlook" href="https://3dlook.me/?utm_source=newsletter&utm_medium=email&utm_campaign=email_newsletter&utm_content=smb_november_2019%0D%0A" target="_blank" style='color:#282828;font-family:"Roboto", Arial, sans-serif;text-decoration:none;display:inline-block;width:100%;height:100%;background-color:#C8CCD3;line-height:30px;text-align:center;'>
+                        <img src="https://nadia-kamuz.github.io/3dlook-email2/img/3dlook.png" alt="3dlook" style="width:17px;">
+                      </a>
+                    </td>
+                    <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;display:inline-block;width:25px;height:25px;margin-right:10px;'>
+                      <a class="linkedin" href="https://www.linkedin.com/company/3dlook/" target="_blank" style='color:#282828;font-family:"Roboto", Arial, sans-serif;text-decoration:none;display:inline-block;width:100%;height:100%;background-color:#C8CCD3;line-height:30px;text-align:center;'>
+                        <img src="https://nadia-kamuz.github.io/3dlook-email2/img/linkedin.png" alt="linkedin" style="width:17px;">
+                      </a>
+                    </td>
+                    <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;display:inline-block;width:25px;height:25px;margin-right:10px;'>
+                      <a class="instagram" href="https://www.instagram.com/3dlook_me/" target="_blank" style='color:#282828;font-family:"Roboto", Arial, sans-serif;text-decoration:none;display:inline-block;width:100%;height:100%;background-color:#C8CCD3;line-height:30px;text-align:center;line-height:32px;'>
+                        <img src="https://nadia-kamuz.github.io/3dlook-email2/img/instagram.png" alt="instagram" style="width:17px;">
+                      </a>
+                    </td>
+                    <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;display:inline-block;width:25px;height:25px;margin-right:10px;'>
+                      <a class="twitter" href="https://twitter.com/3dlook_me" target="_blank" style='color:#282828;font-family:"Roboto", Arial, sans-serif;text-decoration:none;display:inline-block;width:100%;height:100%;background-color:#C8CCD3;line-height:30px;text-align:center;'>
+                        <img src="https://nadia-kamuz.github.io/3dlook-email2/img/twitter.png" alt="twitter" style="width:17px;">
+                      </a>
+                    </td>
+                    <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;display:inline-block;width:25px;height:25px;margin-right:10px;margin-right:0;'>
+                      <a class="facebook" href="https://www.facebook.com/3DLOOK.me/" target="_blank" style='color:#282828;font-family:"Roboto", Arial, sans-serif;text-decoration:none;display:inline-block;width:100%;height:100%;background-color:#C8CCD3;line-height:30px;text-align:center;line-height:34px;'>
+                        <img src="https://nadia-kamuz.github.io/3dlook-email2/img/facebook.png" alt="facebook" style="width:17px;width:9px;">
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="address" style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;'>
+                      <span style="display:inline-block;font-size:12px;line-height:20px;color:#9CA4b1;margin-top:12px;">
+                        <nobr>San Mateo, CA 94401</nobr>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="address second" style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;'>
+                      <span style="display:inline-block;font-size:12px;line-height:20px;color:#9CA4b1;margin-top:12px;margin-top:0;">
+                        <nobr>55 East 3rd Avenue</nobr>
+                      </span>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <table class="hidden-desktop" style="margin:0 auto;border-collapse:collapse;border-spacing:0;display:none;">
+            <tr>
+              <td class="avatar" style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;'>
+                <img src="https://nadia-kamuz.github.io/3dlook-email2/img/Andrey.png" alt="manager-mobile">
+              </td>
+              <td class="contact-info" style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;'>
+                <span style='color:#000;font-size:14px;font-family:"Roboto", Arial, sans-serif;'>
+                  <nobr>Best wishes,</nobr>
+                </span>
+                <p class="name" style='color:#282828;font-size:14px;line-height:23px;margin-top:0;margin-bottom:39px;font-family:"Roboto", Arial, sans-serif;'>
+                  <nobr>Andrew Mospan</nobr>
+                </p>
+                <p class="position" style='color:#282828;font-size:14px;line-height:10px;margin-top:0;margin-bottom:39px;font-family:"Roboto", Arial, sans-serif;'>
+                  <nobr>Head of Sales</nobr>
+                </p>
+              </td>
+            </tr>
+            <tr class="social-icons">
+              <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;display:inline-block;width:25px;height:25px;margin-right:10px;'>
+                <a class="3dlook" href="https://3dlook.me/?utm_source=newsletter&utm_medium=email&utm_campaign=email_newsletter&utm_content=smb_november_2019" target="_blank" style='color:#282828;font-family:"Roboto", Arial, sans-serif;text-decoration:none;display:inline-block;width:100%;height:100%;background-color:#C8CCD3;line-height:30px;text-align:center;'>
+                  <img src="https://nadia-kamuz.github.io/3dlook-email2/img/3dlook.png" alt="3dlook" style="width:17px;">
+                </a>
+              </td>
+              <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;display:inline-block;width:25px;height:25px;margin-right:10px;'>
+                <a class="linkedin" href="https://www.linkedin.com/company/3dlook/" target="_blank" style='color:#282828;font-family:"Roboto", Arial, sans-serif;text-decoration:none;display:inline-block;width:100%;height:100%;background-color:#C8CCD3;line-height:30px;text-align:center;'>
+                  <img src="https://nadia-kamuz.github.io/3dlook-email2/img/linkedin.png" alt="linkedin" style="width:17px;">
+                </a>
+              </td>
+              <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;display:inline-block;width:25px;height:25px;margin-right:10px;'>
+                <a class="instagram" href="https://www.instagram.com/3dlook_me/" target="_blank" style='color:#282828;font-family:"Roboto", Arial, sans-serif;text-decoration:none;display:inline-block;width:100%;height:100%;background-color:#C8CCD3;line-height:30px;text-align:center;line-height:32px;'>
+                  <img src="https://nadia-kamuz.github.io/3dlook-email2/img/instagram.png" alt="instagram" style="width:17px;">
+                </a>
+              </td>
+              <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;display:inline-block;width:25px;height:25px;margin-right:10px;'>
+                <a class="twitter" href="https://twitter.com/3dlook_me" target="_blank" style='color:#282828;font-family:"Roboto", Arial, sans-serif;text-decoration:none;display:inline-block;width:100%;height:100%;background-color:#C8CCD3;line-height:30px;text-align:center;'>
+                  <img src="https://nadia-kamuz.github.io/3dlook-email2/img/twitter.png" alt="twitter" style="width:17px;">
+                </a>
+              </td>
+              <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;display:inline-block;width:25px;height:25px;margin-right:10px;margin-right:0;'>
+                <a class="facebook" href="https://www.facebook.com/3DLOOK.me/" target="_blank" style='color:#282828;font-family:"Roboto", Arial, sans-serif;text-decoration:none;display:inline-block;width:100%;height:100%;background-color:#C8CCD3;line-height:30px;text-align:center;line-height:34px;'>
+                  <img src="https://nadia-kamuz.github.io/3dlook-email2/img/facebook.png" alt="facebook" style="width:17px;width:9px;">
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;'>
+                <span class="address">San Mateo, CA 94401</span>
+                <span class="address second">55 East 3rd Avenue</span>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr class="footer">
+        <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;'>
+          <table width="480" class="desc-table" style="margin:0 auto;border-collapse:collapse;border-spacing:0;margin-top:44px;">
+            <tr>
+              <td style='font-family:"Roboto", Arial, sans-serif;position:relative;z-index:3;padding:0;margin:0;'>
+                <p class="desc first" style='color:#282828;font-size:14px;line-height:23px;margin-top:0;margin-bottom:39px;font-family:"Roboto", Arial, sans-serif;font-size:12px;line-height:20px;color:rgba(0, 0, 0, 0.4);margin-bottom:37px;margin-bottom:14px;'>In the past you provided 3DLOOK with your email address. If you no longer want to receive these emails just press <a href="{{UnsubscribeUrl}}" style='color:#282828;font-family:"Roboto", Arial, sans-serif;text-decoration:none;color:#cdcdcd;'>unsubscribe</a> and you’ll be removed from our list. For information about how we process data and monitor communications please see our <a href="https://3dlook.me/privacy-policy/" target="_blank" style='color:#282828;font-family:"Roboto", Arial, sans-serif;text-decoration:none;color:#cdcdcd;'>Privacy Policy</a> and <a href="https://3dlook.me/terms-of-service/" target="_blank" style='color:#282828;font-family:"Roboto", Arial, sans-serif;text-decoration:none;color:#cdcdcd;'>Terms of Use</a></p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
